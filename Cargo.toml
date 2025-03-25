@@ -1,0 +1,11 @@
+[package]
+name = "layer-norm-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pyo3 = "0.24.0"
+
+[[bin]]
+name = "layer-norm-rust"
+path = "src/lib.rs"
